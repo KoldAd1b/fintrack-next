@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💸 Finance Tracker Application
 
-## Getting Started
+Welcome to the **Finance Tracker** application! This project is designed to help you manage your personal finances, track expenses, monitor income, and set budgeting goals, all from a sleek, user-friendly interface. Whether you’re aiming to save for the future or keep tabs on your spending, this tool provides insights into your financial habits, helping you make informed decisions.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Expense & Income Tracking**: Add, view, and manage transactions with categories such as food, travel, bills, etc.
+- **Budgeting**: Set monthly or yearly budgets and track your progress with detailed summaries.
+- **Visual Reports**: Beautiful charts and graphs to give you a clear picture of your spending patterns.
+- **Category Insights**: Know exactly how much you're spending in specific categories and make adjustments accordingly.
+- **Multiple Accounts Support**: Track your finances across multiple accounts, including bank accounts, credit cards, and cash.
+- **Mobile-Friendly**: Fully responsive design, perfect for tracking finances on the go.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🛠️ Tech Stack
 
-## Learn More
+The Finance Tracker is built using modern web technologies:
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend**: NextJS
+- **Backend**: NextJs (With Hono).
+- **Database**: Neon-Postgres
+- **API Integration**: Integrated with plaid so that you can connect your own bank account
+- **Authentication**: Authenticated using clerk.js
+- **Styling**: Tailwind CSS for clean and responsive design.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
