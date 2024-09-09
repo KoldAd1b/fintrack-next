@@ -57,6 +57,7 @@ const Navigation = () => {
             {routes.map((route) => {
               return (
                 <Button
+                  key={route.href}
                   variant={route.href === pathname ? "secondary" : "ghost"}
                   onClick={() => {
                     onClick(route.href);
